@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  }
+  
+  html,
+  body {
+  height: 100%;
+  }
+  
+
+  
+  .main_section1 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100svh;
+    width: 100svw;
+    
+  background: linear-gradient(125deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #89e81d, #e87c1d, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;}
+  
+  
+    img {
+      margin-top: 80px;
+      width: 200px;
+      height: 200px;
+      transform: rotate(45deg);
+      border-radius: 50%; 
+      
+      background: linear-gradient(124deg, #ff2400, #e81d1d, #e87c1d, #e3e81d, #89e81d, #00e3f3, #dd00f3);
+      background-size: 1800% 1800%;
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 10s ease infinite;
+    -o-animation: rainbow 10s ease infinite;
+      animation: rainbow 10s ease infinite;
+    }
+    img:hover {
+      transition-timing-function: ease;
+      width: 300px;
+      height: 300px;
+      transition-duration: 2s;
+    }
+  
+  
+    h1 {
+      background: -webkit-linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #89e81d, #e87c1d);
+      background-size: 1000% 1000%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: rainbow 18s ease infinite;
+      -z-animation: rainbow 18s ease infinite;
+      -o-animation: rainbow 18s ease infinite;
+      animation: rainbow 18s ease infinite;
+    }
+  
+  
+  
+  @keyframes pulsate {
+    50%{ stroke-width:5px }
+  }
+  
+  @-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+  }
+
+.blink {
+  animation: blinking 300ms infinite;
+}
+@keyframes blinking {
+  0%{
+background-color: #92ff25;
+  }
+  25%{
+    background-color: #d700f3;
+  }
+  50%{
+    background-color: #00e3f3;
+  }
+  75%{
+    background-color: #f30051;
+  }
+  100%{
+    background-color: #eff300;
+  }
+
+}
+
+  button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    background: #034d85;
+    padding: 1.1rem 3.4rem;
+    border-radius: .2rem;
+    transition: opacity .2s;
+    }
+    
+    button:hover {
+    cursor: pointer;
+    background: #053056;
+    }
+  
+    .button_array {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      }
+
+    .button_card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      height: 140px;
+      width: 160px;
+    }
+    .check {
+      width: 50px;
+      height: 50px;
+    }
+
+    
